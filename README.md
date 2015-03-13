@@ -5,9 +5,11 @@ An example of [StatedFragment](https://github.com/nuuneoi/StatedFragment) on **H
 First of all, add a dependency for `StatedFragment`
 
 ```
-compile 'com.inthecheesefactory.thecheeselibrary:stated-fragment-support-v4:0.9.2'
-// Or use the above line instead, in case you use Fragment from android.app.*
-//compile 'com.inthecheesefactory.thecheeselibrary:stated-fragment:0.9.2'
+dependencies {
+    compile 'com.inthecheesefactory.thecheeselibrary:stated-fragment-support-v4:0.9.2'
+    // Or use the above line instead, in case you use Fragment from android.app.*
+    //compile 'com.inthecheesefactory.thecheeselibrary:stated-fragment:0.9.2'
+}
 ```
 
 Override your Activity's `onActivityResult` and add the following line:
